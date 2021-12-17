@@ -4,6 +4,11 @@
   "description": "A Vue.js project",
   "author": "wuwenwei",
   "private": true,
+  "files": [
+    "src",
+    "build",
+    "static"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
